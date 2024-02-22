@@ -1,0 +1,60 @@
+/* Google Font - Kanit*/
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+
+
+*{
+    font-family: 'Mitr', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{ 
+    /* ======= Colors ======== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #353535;
+    --primary-color: #60A5FA;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #e1e1e1;
+
+    /* ========= Transition ========= */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.title {
+    text-align: center;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-info img {
+    width: 250px;
+    height: auto;
+}
+.w3-font{
+    font-family: 'Mitr', sans-serif;
+    
+}
